@@ -1,4 +1,4 @@
-var time = 2;
+var time = 60;
 var score = 0;
 var maxscore= 0;
 var a;
@@ -56,7 +56,7 @@ function retry(){
     document.querySelector('#pbtm').addEventListener('click',function(e){
         if(e.target.id === 'retry'){
             score = 0;
-            time = 2;
+            time = 60;
             document.querySelector('#score').textContent = score;
         makeBubble()
         gethit()
