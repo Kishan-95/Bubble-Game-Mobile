@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height:100%;
+    background-color:chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    width:90%;
+    height: 90%;
+    background-color: coral;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop{
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    padding: 0 10px;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.elem h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box{
+    padding:10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+#pbtm{
+    width:100%;
+    height:90vh;
+    color: white;
+    padding: 15px;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bubble{
+
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    
+
+
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+
+#gameoverScreen{
+    width:80%;
+    height: 40%;
+    background-color: orange;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#retry{
+    padding: 10px 20px;
+    border-radius: 55px;
+    background-color: orangered;
+    border: transparent;
+    margin-top: 10px;
+}
+
+
+#startpage{
+    width:80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#play{
+    padding: 10px 20px;
+    border-radius: 55px;
+    background-color: orange;
+    border: transparent;
+}
+
+#gamename{
+    color:aqua
+}
